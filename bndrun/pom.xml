@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.osgi</groupId>
+		<artifactId>osgi.enroute.examples.m2e</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<artifactId>osgi.enroute.examples.m2e.bndrun</artifactId>
+
+	<packaging>jar</packaging>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>biz.aQute.bnd</groupId>
+				<artifactId>bnd-export-maven-plugin</artifactId>
+				<version>3.3.0-SNAPSHOT</version>
+				<configuration>
+					<bndruns>
+						<bndrun>osgi.enroute.examples.m2e.bndrun</bndrun>
+					</bndruns>
+					<targetDir>.</targetDir>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>export</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>osgi.enroute.examples.m2e.command</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>osgi.enroute.examples.m2e.application</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>osgi.enroute.examples.m2e.provider</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+    <groupId>org.apache.felix</groupId>
+    <artifactId>org.apache.felix.gogo.shell</artifactId>
+    <version>0.12.0</version>
+    <scope>runtime</scope>
+</dependency>
+	</dependencies>
+</project>

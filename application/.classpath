@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.distro.pom/2.0.0-SNAPSHOT/osgi.enroute.distro.pom-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.bndlib/3.0.0/biz.aQute.bndlib-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.junit/3.0.0/biz.aQute.junit-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.launcher/3.0.0/biz.aQute.launcher-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.remote.agent/3.0.0/biz.aQute.remote.agent-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.remote.launcher/3.0.0/biz.aQute.remote.launcher-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.remote.main/3.0.0/biz.aQute.remote.main-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/biz.aQute.tester/3.0.0/biz.aQute.tester-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.configadmin/1.8.6/org.apache.felix.configadmin-1.8.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.dependencymanager/3.2.0/org.apache.felix.dependencymanager-3.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.core/4.2.0/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.gogo.command/0.14.0/org.apache.felix.gogo.command-0.14.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.gogo.runtime/0.16.2/org.apache.felix.gogo.runtime-0.16.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.bundlerepository/1.6.0/org.apache.felix.bundlerepository-1.6.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/easymock/easymock/2.4/easymock-2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.http.api/3.0.0/org.apache.felix.http.api-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.http.jetty/3.1.0/org.apache.felix.http.jetty-3.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-servlet/9.2.12.v20150709/jetty-servlet-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-security/9.2.12.v20150709/jetty-security-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-server/9.2.12.v20150709/jetty-server-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/9.2.12.v20150709/jetty-http-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-jmx/9.2.12.v20150709/jetty-jmx-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-webapp/9.2.12.v20150709/jetty-webapp-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-xml/9.2.12.v20150709/jetty-xml-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-servlet/9.2.12.v20150709/websocket-servlet-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-server/9.2.12.v20150709/websocket-server-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.http.base/3.0.0/org.apache.felix.http.base-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.http.servlet-api/1.1.2/org.apache.felix.http.servlet-api-1.1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/tomcat/tomcat-servlet-api/8.0.9/tomcat-servlet-api-8.0.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.log/1.0.1/org.apache.felix.log-1.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.scr/2.0.0/org.apache.felix.scr-2.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/mojo/animal-sniffer-annotations/1.9/animal-sniffer-annotations-1.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.webconsole/4.2.8/org.apache.felix.webconsole-4.2.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/com.springsource.org.json/1.0.0/com.springsource.org.json-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.amdatu.remote.admin.http/0.1.2/org.amdatu.remote.admin.http-0.1.2.jar" sourcepath="M2_REPO/org/osgi/org.amdatu.remote.admin.http/0.1.2/org.amdatu.remote.admin.http-0.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.amdatu.remote.admin.http/0.1.2/org.amdatu.remote.admin.http-0.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.amdatu.remote.discovery.bonjour/0.1.2/org.amdatu.remote.discovery.bonjour-0.1.2.jar" sourcepath="M2_REPO/org/osgi/org.amdatu.remote.discovery.bonjour/0.1.2/org.amdatu.remote.discovery.bonjour-0.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.amdatu.remote.discovery.bonjour/0.1.2/org.amdatu.remote.discovery.bonjour-0.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.amdatu.remote.topology.promiscuous/0.1.2/org.amdatu.remote.topology.promiscuous-0.1.2.jar" sourcepath="M2_REPO/org/osgi/org.amdatu.remote.topology.promiscuous/0.1.2/org.amdatu.remote.topology.promiscuous-0.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.amdatu.remote.topology.promiscuous/0.1.2/org.amdatu.remote.topology.promiscuous-0.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.coordinator/1.3.100.v20150410-1453/org.eclipse.equinox.coordinator-1.3.100.v20150410-1453.jar" sourcepath="M2_REPO/org/osgi/org.eclipse.equinox.coordinator/1.3.100.v20150410-1453/org.eclipse.equinox.coordinator-1.3.100.v20150410-1453-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.eclipse.equinox.coordinator/1.3.100.v20150410-1453/org.eclipse.equinox.coordinator-1.3.100.v20150410-1453-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.coordinator.source/1.3.100.v20150410-1453/org.eclipse.equinox.coordinator.source-1.3.100.v20150410-1453.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.event/1.3.100.v20140115-1647/org.eclipse.equinox.event-1.3.100.v20140115-1647.jar" sourcepath="M2_REPO/org/osgi/org.eclipse.equinox.event/1.3.100.v20140115-1647/org.eclipse.equinox.event-1.3.100.v20140115-1647-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.eclipse.equinox.event/1.3.100.v20140115-1647/org.eclipse.equinox.event-1.3.100.v20140115-1647-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.event.source/1.3.100.v20140115-1647/org.eclipse.equinox.event.source-1.3.100.v20140115-1647.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.metatype/1.4.100.v20150408-1437/org.eclipse.equinox.metatype-1.4.100.v20150408-1437.jar" sourcepath="M2_REPO/org/osgi/org.eclipse.equinox.metatype/1.4.100.v20150408-1437/org.eclipse.equinox.metatype-1.4.100.v20150408-1437-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.eclipse.equinox.metatype/1.4.100.v20150408-1437/org.eclipse.equinox.metatype-1.4.100.v20150408-1437-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.equinox.metatype.source/1.4.100.v20150408-1437/org.eclipse.equinox.metatype.source-1.4.100.v20150408-1437.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.eclipse.osgi/3.10.100.v20150529-1857/org.eclipse.osgi-3.10.100.v20150529-1857.jar" sourcepath="M2_REPO/org/osgi/org.eclipse.osgi/3.10.100.v20150529-1857/org.eclipse.osgi-3.10.100.v20150529-1857-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.eclipse.osgi/3.10.100.v20150529-1857/org.eclipse.osgi-3.10.100.v20150529-1857-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.knopflerfish.bundle.useradmin/4.1.1/org.knopflerfish.bundle.useradmin-4.1.1.jar" sourcepath="M2_REPO/org/osgi/org.knopflerfish.bundle.useradmin/4.1.1/org.knopflerfish.bundle.useradmin-4.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/aqute/.m2/repository/org/osgi/org.knopflerfish.bundle.useradmin/4.1.1/org.knopflerfish.bundle.useradmin-4.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.namespace.contract/1.0.0/org.osgi.namespace.contract-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.namespace.extender/1.0.1/org.osgi.namespace.extender-1.0.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.namespace.implementation/1.0.0/org.osgi.namespace.implementation-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.namespace.service/1.0.0/org.osgi.namespace.service-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.service.async/1.0.0/org.osgi.service.async-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.service.event/1.3.1/org.osgi.service.event-1.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.service.metatype/1.3.0/org.osgi.service.metatype-1.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.service.remoteserviceadmin/1.1.0/org.osgi.service.remoteserviceadmin-1.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.base.api/2.0.0-SNAPSHOT/osgi.enroute.base.api-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.base.debug.provider/1.1.0.201509161450/osgi.enroute.base.debug.provider-1.1.0.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.base.test/1.0.2.201509161450/osgi.enroute.base.test-1.0.2.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.bostock.d3.webresource/3.5.6.201509161450/osgi.enroute.bostock.d3.webresource-3.5.6.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.dto.bndlib.provider/1.0.0.201508270928/osgi.enroute.dto.bndlib.provider-1.0.0.201508270928.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.easse.simple.adapter/1.3.2.201509161450/osgi.enroute.easse.simple.adapter-1.3.2.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.equinox.log.adapter/1.0.1.201509161450/osgi.enroute.equinox.log.adapter-1.0.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.hamcrest.wrapper/1.3.0.201509161450/osgi.enroute.hamcrest.wrapper-1.3.0.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.iot.circuit.application/1.0.2.201509161450/osgi.enroute.iot.circuit.application-1.0.2.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.iot.circuit.command/1.0.1.201509161450/osgi.enroute.iot.circuit.command-1.0.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.iot.circuit.provider/2.0.1.201509161450/osgi.enroute.iot.circuit.provider-2.0.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.iot.lego.adapter/1.0.1.201509161450/osgi.enroute.iot.lego.adapter-1.0.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.iot.pi.command/1.0.1.201509161450/osgi.enroute.iot.pi.command-1.0.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.jsplumb.webresource/1.7.6.201509161450/osgi.enroute.jsplumb.webresource-1.7.6.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.junit.wrapper/4.12.0.201509161450/osgi.enroute.junit.wrapper-4.12.0.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.scheduler.simple.provider/1.1.1.201509161450/osgi.enroute.scheduler.simple.provider-1.1.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.stackexchange.pagedown.webresource/1.1.1.201509161450/osgi.enroute.stackexchange.pagedown.webresource-1.1.1.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.enroute.twitter.bootstrap.webresource/3.3.5.201509161450/osgi.enroute.twitter.bootstrap.webresource-3.3.5.201509161450.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/osgi.promise/6.0.0/osgi.promise-6.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.authenticator.simple.provider/1.0.2/osgi.enroute.authenticator.simple.provider-1.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.authorization.simple.provider/1.1.0/osgi.enroute.authorization.simple.provider-1.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.configurer.simple.provider/1.2.2/osgi.enroute.configurer.simple.provider-1.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.dtos.bndlib.provider/1.0.0/osgi.enroute.dtos.bndlib.provider-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.executor.simple.provider/1.0.0/osgi.enroute.executor.simple.provider-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.gogo.shell.provider/1.0.0/osgi.enroute.gogo.shell.provider-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.jsonrpc.simple.provider/1.1.3/osgi.enroute.jsonrpc.simple.provider-1.1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.logger.simple.provider/1.2.1/osgi.enroute.logger.simple.provider-1.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.rest.simple.provider/2.0.2/osgi.enroute.rest.simple.provider-2.0.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.web.simple.provider/1.3.3/osgi.enroute.web.simple.provider-1.3.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.webconsole.xray.provider/2.0.0/osgi.enroute.webconsole.xray.provider-2.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/osgi/enroute/osgi.enroute.websecurity.adapter/1.1.2/osgi.enroute.websecurity.adapter-1.1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

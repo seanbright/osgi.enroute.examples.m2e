@@ -1,0 +1,11 @@
+Bundle-Description: \
+	Provides a Web based application to evaluate the evaluator
+	
+Private-Package: \
+	osgi.enroute.examples.m2e.application
+
+EnRoute-Application: 	osgi.enroute.examples.m2e
+
+-includeresource: \
+	{static=static}, \
+	{web=web}

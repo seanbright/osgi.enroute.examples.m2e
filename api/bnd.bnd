@@ -1,0 +1,12 @@
+#
+# Example M2E OSGi enRoute API Project
+#
+
+Bundle-Description: 				\
+	An API for an expression parser
+
+Require-Capability: \
+	compile-only
+
+
+Export-Package: osgi.enroute.examples.m2e.api

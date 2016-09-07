@@ -1,0 +1,6 @@
+Bundle-Description: 				\
+	Provides a simple implementation for a eval parser
+
+Private-Package:  \
+	osgi.enroute.examples.m2e.provider
+Export-Package: osgi.enroute.examples.m2e.api

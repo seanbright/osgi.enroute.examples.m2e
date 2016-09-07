@@ -1,0 +1,9 @@
+.gradle/
+**/generated/
+/target/
+enroute.zip
+.metadata
+**/target/
+**/*.jar
+**/*.class
+
